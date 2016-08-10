@@ -6,6 +6,7 @@ public class ShapeMaker {
   private Shape line;
   private Shape happy;
   private Shape parallelogram;
+  private Shape renwick;
 
   public ShapeMaker() {
     circle = new Circle();
@@ -15,6 +16,7 @@ public class ShapeMaker {
     line = new Line();
     happy = new Happy();
     parallelogram = new Parallelogram();
+    renwick = new Renwick();
   }
 
   public void drawCircle() {
@@ -43,5 +45,9 @@ public class ShapeMaker {
 
   public void drawParallelogram() {
     parallelogram.draw();
+  }
+
+  public void drawRenwick() {
+    renwick.draw();
   }
 }

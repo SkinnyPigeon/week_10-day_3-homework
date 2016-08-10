@@ -9,5 +9,6 @@ public class FacadePattern {
     shapemaker.drawLine();
     shapemaker.drawHappy();
     shapemaker.drawParallelogram();
+    shapemaker.drawRenwick();
   }
 }
